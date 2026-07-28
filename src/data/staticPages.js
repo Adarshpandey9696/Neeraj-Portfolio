@@ -28,19 +28,19 @@ const staticPages = [
             id: 'gallery-2',
             title: 'Workshop Session',
             summary: 'Interactive financial planning workshop for long-term goals.',
-            image:'../src/assets/gallery-photos/workshop-session.jpg'
+            image:'/gallery-photos/workshop-session.jpg'
           },
           {
             id: 'gallery-3',
             title: 'Award Ceremony',
             summary: 'Recognizing service excellence and community impact.',
-            image: '../src/assets/gallery-photos/award-ceremony.jpg'
+            image: '/gallery-photos/award-ceremony.jpg'
           },
           {
             id: 'gallery-4',
             title: 'Community Outreach',
             summary: 'A memorable day supporting local families and awareness drives.',
-            image: '../src/assets/gallery-photos/community-outreach.jpg'
+            image: '/gallery-photos/community-outreach.jpg'
           }
         ]
       },
