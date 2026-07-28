@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <header className="nav-wrap" ref={ref}>
       <div className="container nav-inner">
-        <div className="brand"><Link to="/">Neeraj Tiwari</Link></div>
+        <div className="brand"><Link to="/">Neeraj..</Link></div>
         <button className="nav-toggle" aria-label="Toggle navigation" onClick={()=>setOpen(v=>!v)}>☰</button>
         <nav className={open? 'open':''} aria-label="Main Navigation">
           <ul className="nav-list">
