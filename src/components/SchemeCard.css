@@ -1,0 +1,6 @@
+.plan-card{background:white;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease;border:1px solid rgba(43,42,122,0.08);animation:fadeUp .75s ease both}
+.plan-card:hover{transform:translateY(-8px);box-shadow:0 26px 42px rgba(44,39,112,0.12)}
+.plan-card .body h4{margin:0;font-size:1.1rem;color:#2b2a7a}
+.plan-card .body p{margin:0.65rem 0;color:#5d5671}
+.plan-card .actions a{color:var(--royal-500);text-decoration:none;font-weight:700;transition:color .2s ease}
+.plan-card .actions a:hover{color:#0f0c45}
